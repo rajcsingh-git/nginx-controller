@@ -1,8 +1,8 @@
 # nginx-controller
 # This is first header line
 Testing formating
-* This line is italicized
-** This is bold line
+* This line is italicized *
+** This is bold line **
 
 1. first
 1. second
