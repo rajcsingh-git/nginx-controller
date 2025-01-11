@@ -4,7 +4,7 @@ Testing formating
 
 *This line is italicized*
 
-***This is bold line***
+**This is bold line**
 
 1. first
 1. second
