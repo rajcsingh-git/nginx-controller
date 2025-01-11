@@ -27,3 +27,23 @@ Test Tables
 |Delhi|bad|
 |Mumbai|Good|
 
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test
+  label: xyz
+spec:
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+      - name: pod1
+        image: docker/nginx:latest
+```
+    
